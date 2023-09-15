@@ -242,7 +242,7 @@ webservice=http://*project-URL*.us-east-2.elasticbeanstalk.com
 Obviously, the webservice needs to be running for the client to connect. 
 The client is pretty self-explanatory and features a very simple text-based UI that should be easy to follow.
 
-However, to run the webservice, you'll need to modify the js_webservice/photoapp-config file, which follows this format:
+However, to run the webservice, you'll need to modify the [js_webservice/photoapp-config](https://github.com/theogguu/aws-photoapp/blob/main/webservice_js/photoapp-config) file, which follows this format:
 ```
 [s3]
 bucket_name = photoapp-steven-gu
